@@ -8,7 +8,7 @@ export const StoreContext = createContext(null);
 export const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   const [menuList, setMenuList] = useState([]);
-  const url = "http://localhost:8000";
+  const url = "https://mangoexpress-backend.onrender.com";
   const { authUser } = userAuthStore();
 
 
