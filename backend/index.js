@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"],  // Ensure this matches the URL of your frontend
+  origin: ["https://mangoexpress-admin.onrender.com", "https://mangoexpress-frontend.onrender.com"],  // Ensure this matches the URL of your frontend
   credentials: true,              // Allow cookies to be sent with requests
 }));
 
