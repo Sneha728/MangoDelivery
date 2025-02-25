@@ -9,7 +9,7 @@ import Order from './pages/Order';
 import { ToastContainer } from "react-toastify";
 
 function App() {
-  const url = "http://localhost:8000";
+  const url = "https://mangoexpress-backend.onrender.com";
   return (
     <BrowserRouter>
     <Navbar />
